@@ -1,3 +1,6 @@
+#!/bin/bash
+#
+# 
 echo Installing Vim Master Race
 # install vim
 yum install vim -y -q
@@ -15,3 +18,6 @@ git config --global user.name "aristeiaa"
 git config --global user.email "aristeiaa@gmail.com"
 git config --global core.editor vim
 git config --global merge.tool vimdiff
+
+echo Installing Tmux
+yum install tmux -y -q
