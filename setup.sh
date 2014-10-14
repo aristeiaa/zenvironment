@@ -7,6 +7,7 @@ yum install vim -y -q
 
 echo Installing Zsh
 # install zsh and oh my zsh
+yum install zsh -y -q
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 # set zsh as default shell
 chsh -s /bin/zsh
